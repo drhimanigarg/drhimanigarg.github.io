@@ -15,9 +15,6 @@ Additive manufacturing (3D printing) makes it possible to build heat-exchanging 
 ![Overview of turbulent heat transfer over rough surfaces: roughness topography, temperature roughness function, and turbulent flow structure](/assets/img/roughness-overview.jpg)
 *How roughness shapes turbulent heat transfer: surface topography, the temperature roughness function, and the near-wall flow structure.*
 
-![Large Eddy Simulation of turbulent flow and heat transfer in a rough pipe](/assets/img/roughness-pipe-les.jpg)
-*LES of turbulent flow and heat transfer in a pipe with irregular roughness.*
-
 <video autoplay muted loop playsinline controls src="/assets/img/roughness-temperature-les.mp4"></video>
 *Instantaneous temperature field from our Large Eddy Simulation of turbulent flow over a rough surface.*
 
