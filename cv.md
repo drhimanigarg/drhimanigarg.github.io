@@ -6,7 +6,6 @@ permalink: /cv/
 
 # Curriculum vitae
 
-#<a class="button" href="{{ '/assets/Himani_Garg_CV.pdf' | relative_url }}">Download full CV (PDF)</a>
 
 ## Current position
 
