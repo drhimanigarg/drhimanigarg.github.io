@@ -10,7 +10,7 @@ My research sits at the intersection of turbulence physics and thermal energy en
 
 ## Turbulent heat transfer over rough and additively manufactured surfaces
 
-Additive manufacturing (3D printing) makes it possible to build heat-exchanging components with surface textures no conventional machining can produce — but the resulting roughness changes the turbulence, the drag, and the heat transfer in ways that are still poorly understood. Using LES and DNS, we quantify how roughness height, skewness, and topography shape the near-wall flow and the Nusselt number, including conjugate heat transfer effects and medium-to-high Prandtl number fluids. This work is carried out with industrial partners such as Siemens Energy and academic collaborators at Karlsruhe Institute of Technology and Osaka Metropolitan University.
+Additive manufacturing (3D printing) makes it possible to build heat-exchanging components with surface textures no conventional machining can produce — but the resulting roughness changes the turbulence, the drag, and the heat transfer in ways that are still poorly understood. Using LES and DNS, we quantify how roughness height, skewness, and topography shape the near-wall flow and the Nusselt number, including conjugate heat transfer effects and medium-to-high Prandtl number fluids. This work is carried out with industrial partners such as Siemens Energy and academic collaborators at Karlsruhe Institute of Technology (Germany), Atlantic Technological University (Ireland), and Osaka Metropolitan University (Japan).
 
 ## Internal cooling of gas turbine blades
 
