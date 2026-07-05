@@ -20,6 +20,7 @@ Additive manufacturing (3D printing) makes it possible to build heat-exchanging 
 
 **Our publications on this topic:**
 
+- H. Garg, <em>Numerical Investigation of Turbulent Heat Transfer Over Rough Surfaces at Medium–high Prandtl Numbers</em>, J. Turbomach. (ASME), 2006. accepted.
 - H. Garg, M. Kadivar, <em>LES investigations of heat transfer in a tube with irregular roughness at moderate Prandtl numbers</em>, Int. Commun. Heat Mass Transf. 169, 2025. <a href="https://www.sciencedirect.com/science/article/pii/S0735193325013570">Read the paper</a>
 - M. Kadivar, H. Garg, <em>Turbulent heat transfer over roughness: a comprehensive review of theories and turbulent flow structure</em>, Int. J. Thermofluids 26, 2025. <a href="https://www.sciencedirect.com/science/article/pii/S2666202724004075">Read the paper</a>
 - H. Garg, G. Sahut, E. Tuneskog, K. Nogenmyr, C. Fureby, <em>Large Eddy Simulations of flow over additively manufactured surfaces: impact of roughness and skewness on turbulent heat transfer</em>, Phys. Fluids 36 (8), 2024. <a href="https://pubs.aip.org/aip/pof/article/36/8/085143/3307738">Read the paper</a>
