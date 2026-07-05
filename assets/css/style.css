@@ -208,3 +208,254 @@ hr {
   color: var(--ink-soft);
 }
 .colophon { font-family: var(--mono); font-size: 0.78rem; }
+
+/* ---- people cards (PhD students) ---- */
+.person-card {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 1.1rem;
+  align-items: start;
+  background: var(--card);
+  border: 1px solid var(--hairline);
+  border-radius: 6px;
+  padding: 1rem 1.1rem;
+  margin: 0.9rem 0;
+}
+.person-photo {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.person-initials {
+  width: 110px;
+  height: 110px;
+  border-radius: 6px;
+  background: linear-gradient(135deg, #35abf8, #1ae4b6);
+  color: #fff;
+  font-family: var(--serif);
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.person-name { margin: 0; font-weight: 600; font-size: 1.05rem; }
+.person-thesis { margin: 0.15rem 0; }
+.person-meta {
+  margin: 0.15rem 0 0;
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+}
+@media (max-width: 520px) {
+  .person-card { grid-template-columns: 1fr; }
+}
+/* ---------------------------------------------------------------
+   Himani Garg — personal academic site
+   Palette: cool near-white paper, deep ink, flow-blue links.
+   Signature: the "turbo" CFD colormap as a hairline gradient.
+   Type: IBM Plex Serif (display) / Sans (body) / Mono (labels).
+   --------------------------------------------------------------- */
+
+:root {
+  --paper: #f7f9fa;
+  --ink: #17242e;
+  --ink-soft: #46586a;
+  --flow-blue: #1e6bb0;
+  --flow-blue-dark: #14507f;
+  --hairline: #d7dfe4;
+  --card: #ffffff;
+  --turbo: linear-gradient(90deg,
+    #30123b 0%, #4662d8 12%, #35abf8 25%, #1ae4b6 38%,
+    #72fe5e 50%, #c8ef34 62%, #faba39 75%, #f66b19 87%, #7a0403 100%);
+  --serif: "IBM Plex Serif", Georgia, serif;
+  --sans: "IBM Plex Sans", -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", "SFMono-Regular", monospace;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { transition: none !important; }
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+}
+
+.wrap {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+a { color: var(--flow-blue); text-decoration: none; }
+a:hover { color: var(--flow-blue-dark); text-decoration: underline; }
+a:focus-visible {
+  outline: 2px solid var(--flow-blue);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* ---- signature element ---- */
+.turbo-bar {
+  height: 3px;
+  background: var(--turbo);
+}
+
+/* ---- header ---- */
+.site-header { background: var(--card); }
+.header-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem 1.5rem;
+  padding-top: 1.1rem;
+  padding-bottom: 1rem;
+}
+.site-name {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 1.35rem;
+  color: var(--ink);
+}
+.site-name:hover { text-decoration: none; color: var(--flow-blue-dark); }
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1.1rem;
+  font-size: 0.95rem;
+}
+.site-nav a { color: var(--ink-soft); }
+.site-nav a:hover { color: var(--flow-blue-dark); }
+
+/* ---- headings ---- */
+h1, h2, h3 {
+  font-family: var(--serif);
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--ink);
+}
+h1 { font-size: 2rem; margin: 2.2rem 0 0.8rem; }
+h2 { font-size: 1.4rem; margin: 2.2rem 0 0.6rem; }
+h3 { font-size: 1.1rem; margin: 1.6rem 0 0.4rem; }
+
+.eyebrow {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin: 2.4rem 0 0.2rem;
+}
+
+/* ---- home intro ---- */
+.intro {
+  display: grid;
+  grid-template-columns: 1fr 180px;
+  gap: 2rem;
+  align-items: start;
+  margin-top: 2.4rem;
+}
+.intro h1 { margin-top: 0; }
+.intro .role {
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  margin: 0 0 1rem;
+}
+.portrait {
+  width: 100%;
+  border-radius: 6px;
+  display: block;
+}
+@media (max-width: 640px) {
+  .intro { grid-template-columns: 1fr; }
+  .portrait { max-width: 200px; }
+}
+
+/* ---- news list ---- */
+.news-list { list-style: none; margin: 0; padding: 0; }
+.news-list li {
+  position: relative;
+  overflow: hidden;
+  background: var(--card);
+  border: 1px solid var(--hairline);
+  border-radius: 4px;
+  padding: 0.9rem 1.1rem 0.9rem 1.35rem;
+  margin: 0.8rem 0;
+}
+.news-list li::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 4px;
+  background: linear-gradient(180deg,
+    #4662d8, #35abf8, #1ae4b6, #c8ef34, #faba39, #f66b19);
+}
+.news-list .news-date {
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+  display: block;
+}
+.news-list a { font-weight: 500; }
+.news-list p { margin: 0.3rem 0 0; font-size: 0.97rem; color: var(--ink-soft); }
+
+/* ---- posts ---- */
+.post-date {
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  margin: 2.2rem 0 0;
+}
+.post h1 { margin-top: 0.3rem; }
+.post img { max-width: 100%; border-radius: 6px; }
+.back-link { margin: 2.5rem 0; }
+
+/* ---- publications ---- */
+.pub-list { list-style: none; padding: 0; }
+.pub-list li {
+  margin: 0 0 1.1rem;
+  padding-left: 1rem;
+  border-left: 2px solid var(--hairline);
+}
+.pub-list .venue { color: var(--ink-soft); font-style: italic; }
+.pub-list .doi { font-family: var(--mono); font-size: 0.85rem; }
+
+/* ---- generic content ---- */
+ul { padding-left: 1.2rem; }
+li { margin: 0.3rem 0; }
+hr {
+  border: 0;
+  height: 1px;
+  background: var(--hairline);
+  margin: 2.5rem 0;
+}
+.button {
+  display: inline-block;
+  background: var(--flow-blue);
+  color: #fff;
+  padding: 0.55rem 1.1rem;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+.button:hover { background: var(--flow-blue-dark); color: #fff; text-decoration: none; }
+
+/* ---- footer ---- */
+.site-footer { margin-top: 4rem; background: var(--card); }
+.footer-inner {
+  padding-top: 1.4rem;
+  padding-bottom: 1.6rem;
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+}
+.colophon { font-family: var(--mono); font-size: 0.78rem; }
