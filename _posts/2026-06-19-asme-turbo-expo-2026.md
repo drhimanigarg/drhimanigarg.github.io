@@ -12,7 +12,7 @@ We were proud to attend with our team of nine — PhD students and seniors — a
 
 Our papers at the conference:
 
-- **GT2026-175585** — *Numerical Investigation of Turbulent Heat Transfer Over Rough Surfaces at Medium–High Prandtl Numbers*, by Himani Garg.
+- **GT2026-175585** — *Numerical Investigation of Turbulent Heat Transfer Over Rough Surfaces at Medium–High Prandtl Numbers*, by [Himani Garg](https://www.linkedin.com/in/himani-garg-4977b0256/).
 - **GT2026-175582** — *Large Eddy Simulation Study of Conjugate Heat Transfer and Premixed Flame Dynamics in a Rearward-Facing Step Combustor*, by Mattias Ly, Thommie Nilsson, Himani Garg, Daniel Lörstad, and Christer Fureby.
 - **GT2026-177503** — *Turbulent Heat Transfer in Lattice-Structured Matrix Cooling Channels*, by [Himani Garg](https://www.linkedin.com/in/himani-garg-4977b0256/), Romain Seppey, Mihai Mihaescu, and Christer Fureby.
 - **GT2026-176392** — *Numerical Investigation of Heat Transfer Rates and Pressure Drop in a Matrix Channel for Turbine Blade Internal Cooling*, by [Romain Seppey](https://www.linkedin.com/in/romainseppey/), Himani Garg, and Mihai Mihaescu.
