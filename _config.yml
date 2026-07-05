@@ -1,0 +1,10 @@
+title: Himani Garg
+description: >-
+  Assistant Professor in Heat Transfer at Lund University. Research on
+  turbulence, heat transfer, and high-fidelity simulation of energy systems.
+url: ""
+baseurl: ""
+permalink: /news/:year/:title/
+markdown: kramdown
+exclude:
+  - README.md

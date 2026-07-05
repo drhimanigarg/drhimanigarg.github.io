@@ -1,0 +1,16 @@
+---
+layout: default
+title: News
+permalink: /news/
+---
+<h1>News</h1>
+<p>Conferences, research activities, papers, and group updates.</p>
+<ul class="news-list">
+  {% for post in site.posts %}
+  <li>
+    <span class="news-date">{{ post.date | date: "%-d %b %Y" }}</span>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
+  </li>
+  {% endfor %}
+</ul>

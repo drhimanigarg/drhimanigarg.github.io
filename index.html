@@ -1,33 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="description" content="Elastic turbulence researcher – Himani Garg – Google Scholar profile, publications, and research on viscoelastic flows.">
-  <meta name="keywords" content="elastic turbulence, turbulence, viscoelastic flow, scalar mixing, Himani Garg">
-  <meta name="author" content="Himani Garg">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Himani Garg – Elastic Turbulence Researcher</title>
-</head>
-<body style="font-family: Arial, sans-serif; margin: 2em;">
-  <h1>Himani Garg</h1>
-  <p><strong>Researcher in Elastic Turbulence and Viscoelastic Flows</strong></p>
+---
+layout: default
+---
+<div class="intro">
+  <div>
+    <h1>Himani Garg</h1>
+    <p class="role">Assistant Professor in Heat Transfer<br>Department of Energy Sciences, Lund University</p>
+    <p>
+      I study how turbulence moves heat — and how we can make it do so better.
+      My group uses high-fidelity simulation, in particular Large Eddy Simulation (LES)
+      and Direct Numerical Simulation, to understand turbulent heat transfer over rough
+      and additively manufactured surfaces, internal cooling of gas turbine blades,
+      viscoelastic and elastic turbulence in microchannels, and two-phase flows in
+      hydrogen technologies such as PEM fuel cells and electrolyzers.
+    </p>
+    <p>
+      I hold a PhD in Fluid Mechanics from Université de Lille (2019) and have held
+      research positions at Université Grenoble Alpes, the Okinawa Institute of Science
+      and Technology, and Lund University. My work is supported by grants from the
+      Hains Foundation, the Crafoord Foundation, and Kempestiftelserna, and I am a
+      co-applicant of the Vinnova AdTherM competence centre on advanced computing for
+      sustainable thermal management in industry.
+    </p>
+    <p>
+      <a href="mailto:himani.garg@energy.lth.se">himani.garg@energy.lth.se</a> ·
+      <a href="https://orcid.org/0000-0002-5223-0567">ORCID</a> ·
+      <a href="https://scholar.google.com/citations?user=J3hkS44AAAAJ">Google Scholar</a> ·
+      <a href="{{ '/cv/' | relative_url }}">Curriculum vitae</a>
+    </p>
+  </div>
+  <img class="portrait" src="{{ '/assets/img/himani.png' | relative_url }}" alt="Portrait of Himani Garg">
+</div>
 
-  <p>I study complex fluid dynamics with a focus on <strong>elastic turbulence</strong>, <strong>viscoelastic flow instabilities</strong>, and <strong>scalar mixing</strong> in microfluidic and turbulent systems.</p>
+<p class="eyebrow">Latest news</p>
+<ul class="news-list">
+  {% for post in site.posts limit: 3 %}
+  <li>
+    <span class="news-date">{{ post.date | date: "%-d %b %Y" }}</span>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <p>{{ post.excerpt | strip_html | truncate: 140 }}</p>
+  </li>
+  {% endfor %}
+</ul>
+<p><a href="{{ '/news/' | relative_url }}">All news &rarr;</a></p>
 
-  <h2>📚 Publications</h2>
-  <p>View my full list of publications on <a href="https://scholar.google.com/citations?user=J3hkS44AAAAJ&hl=en" target="_blank">Google Scholar</a>.</p>
-
-  <h2>🔬 Research Interests</h2>
-  <ul>
-    <li>Elastic turbulence</li>
-    <li>Viscoelastic flows</li>
-    <li>Flow instabilities in complex fluids</li>
-    <li>Scalar transport and mixing</li>
-    <li>High-fidelity simulations and modeling</li>
-  </ul>
-
-  <h2>📫 Contact</h2>
-  <p>Email: <em>[your email]</em></p>
-  <p>Affiliation: [Your institution, lab, department]</p>
-</body>
-</html>
+<p class="eyebrow">Quick links</p>
+<ul>
+  <li><a href="{{ '/research/' | relative_url }}">Research themes</a> — what my group works on and why it matters.</li>
+  <li><a href="{{ '/publications/' | relative_url }}">Selected publications</a> — journal articles with links to each paper.</li>
+  <li><a href="{{ '/teaching/' | relative_url }}">Teaching &amp; supervision</a> — courses at LTH and thesis opportunities.</li>
+</ul>
