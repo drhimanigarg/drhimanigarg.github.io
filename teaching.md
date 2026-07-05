@@ -22,6 +22,10 @@ I currently supervise **1 PhD student as main supervisor** and **4 PhD students 
 
 **Interested in a thesis project?** I regularly offer M.Sc. and Bachelor thesis topics in turbulent heat transfer, CFD of additively manufactured surfaces, gas turbine cooling, and hydrogen technologies. Get in touch at <a href="mailto:himani.garg@energy.lth.se">himani.garg@energy.lth.se</a>.
 
+## Mentoring beyond Lund
+
+I am a Faculty Partner of the **FOSSEE CFD project** (IIT Bombay, Ministry of Education, Government of India), mentoring interns in India on open-source OpenFOAM case studies. See the <a href="{{ '/fossee/' | relative_url }}">FOSSEE internships page</a> for the projects and how to apply.
+
 ## Pedagogical training
 
 - Teaching in Higher Education, 5 hp — Spring 2025
