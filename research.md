@@ -70,7 +70,7 @@ Water management inside proton exchange membrane (PEM) fuel cells and bubble dyn
   <video autoplay muted loop playsinline controls src="/assets/img/pemfc-gdl-sim1.mp4"></video>
   <video autoplay muted loop playsinline controls src="/assets/img/pemfc-gdl-sim2.mp4"></video>
 </div>
-*Two-phase flow in GC–GDL assemblies: liquid water invading the fibrous gas diffusion layer and emerging into the gas channel, from our pore-scale simulations.*
+*Two-phase flow in GC–GDL assemblies: liquid water invading the fibrous gas diffusion layer and emerging into the gas channel, from our VOF simulations.*
 
 **Our publications on this topic:**
 
