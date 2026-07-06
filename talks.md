@@ -33,4 +33,3 @@ permalink: /talks/
 
 Journals I review for include Physics of Fluids, Physical Review Fluids, Physical Review E, Physical Review Letters, Applied Thermal Engineering, International Journal of Heat and Mass Transfer, International Communications in Heat and Mass Transfer, International Journal of Thermofluids, International Journal of Hydrogen Energy, International Journal of Heat and Fluid Flow, European Journal of Mechanics B/Fluids, Flow Turbulence and Combustion, Numerical Heat Transfer, Energy, Energies, Fluids, Aerospace, and Applied Sciences.
 
-If you would like to invite me for a seminar or talk, please get in touch at <a href="mailto:himani.garg@energy.lth.se">himani.garg@energy.lth.se</a>.
