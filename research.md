@@ -6,7 +6,7 @@ permalink: /research/
 
 # Research
 
-My research sits at the intersection of turbulence physics and thermal energy engineering. The common thread is high-fidelity numerical simulation — Large Eddy Simulation (LES), Direct Numerical Simulation, and pore-scale multiphase modelling — used to answer questions that experiments alone cannot reach.
+My research sits at the intersection of turbulence physics and thermal energy engineering. The common thread is high-fidelity numerical simulation — Large Eddy Simulation (LES), Direct Numerical Simulation, and VOF multiphase modelling — used to answer questions that experiments alone cannot reach.
 
 ## Turbulent heat transfer over rough and additively manufactured surfaces
 
