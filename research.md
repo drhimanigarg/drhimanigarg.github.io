@@ -54,7 +54,39 @@ The work has now also entered the laboratory: our experimental campaign has star
 
 ## Elastic turbulence and viscoelastic flows
 
-At micro scales, inertia is too weak to generate turbulence — but adding small amounts of elastic polymer to a liquid triggers *elastic turbulence*, a chaotic flow state that dramatically enhances mixing and heat transfer. Building on my PhD work on particle-laden elastic turbulence, we study viscoelastic flows in serpentine microchannels and their potential for cooling and lab-on-a-chip applications.
+At micro scales, inertia is too weak to generate turbulence — and yet, adding tiny amounts of elastic polymer to a liquid can drive the flow into *elastic turbulence*: a chaotic state at vanishing Reynolds number, powered entirely by the polymers' elasticity. It is a deceptively hard problem. The polymer conformation tensor couples nonlinearly to the flow, steep elastic stress gradients form near walls, and the numerics are notoriously stiff — which is exactly why so much remains to be discovered, from the fundamental statistics of these flows to their exploitation in real microfluidic devices.
+
+This theme began with my PhD work, where I developed and used an in-house DNS solver to study how inertial particles move through elastic turbulence — the first study of its kind. The result is striking: instead of spreading uniformly, particles accumulate along thin filamentary structures of the flow, with maximum fractal clustering at Stokes numbers near unity.
+
+![Fractal clustering of inertial particles in two-dimensional elastic turbulence, characterized by the correlation dimension](/assets/img/elastic-clustering.jpg)
+*Particles accumulate along filaments: the correlation dimension D₂ reveals maximum fractal clustering at St ≈ 1. Points are particles; color is vorticity.*
+
+<video autoplay muted loop playsinline controls src="/assets/img/elastic-particles-dns.mp4"></video>
+*Inertial particles transported through elastic turbulence, from our in-house DNS solver.*
+
+Particles of different inertia also unmix: species with different Stokes numbers segregate onto different flow structures, which we quantified through a segregation length — a behaviour with direct consequences for particle sorting in microfluidics.
+
+![Segregation of particles with different Stokes numbers in elastic turbulence, quantified by an indicator function and segregation length](/assets/img/elastic-segregation.jpg)
+*Two particle species with different inertia occupy measurably different regions of the flow — the basis for elasticity-driven particle sorting.*
+
+More recently, my focus has turned to **serpentine micro-channels**, the standard geometry for triggering elastic instabilities through curvature. Comparing two- and three-dimensional simulations, we showed how velocity fluctuations and polymer stretching scale with the Weissenberg number, and how the third dimension changes the picture.
+
+![Instantaneous snapshots of polymer conformation, strain rate, and vorticity in a 2D serpentine channel as the Weissenberg number increases from 0.01 to 20](/assets/img/elastic-serpentine-snapshots.jpg)
+*From smooth to chaotic: polymer conformation, strain rate, and vorticity in a serpentine channel as the Weissenberg number grows from 0.01 to 20.*
+
+![Scaling of velocity fluctuations and polymer conformation tensor trace with Weissenberg number, in 2D and 3D simulations](/assets/img/elastic-serpentine-scaling.jpg)
+*Velocity fluctuations and polymer stretch versus Weissenberg number in 2D and 3D — from our Physical Review E (2024) paper.*
+
+**We are currently working on mixing in microfluidics in the presence of strong curvature** — and there is a lot left to do in this field: three-dimensional effects, heat transfer enhancement, particle manipulation, and the route to practical lab-on-a-chip devices are all wide open. If these problems appeal to you, this is an excellent topic for a thesis project or collaboration.
+
+**Our publications on this topic:**
+
+- H. Garg, C. Fureby, <em>Comparison of viscoelastic flows in two- and three-dimensional serpentine channels</em>, Phys. Rev. E 109, 2024. <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.109.055108">Read the paper</a>
+- H. Garg, L. Wang, <em>Enhanced heat transfer in a 2D serpentine micro-channel using elastic polymers</em>, Int. J. Thermofluids 23, 2024. <a href="https://www.sciencedirect.com/science/article/pii/S2666202724001666">Read the paper</a>
+- H. Garg, E. Calzavarini, G. Mompean, S. Berti, <em>Statistical properties of two-dimensional elastic turbulence</em>, Phys. Rev. E 104, 2021. <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.104.035103">Read the paper</a>
+- H. Garg, E. Calzavarini, G. Mompean, S. Berti, <em>Particle-laden two-dimensional elastic turbulence</em>, Eur. Phys. J. E 41, 2018. <a href="https://link.springer.com/article/10.1140/epje/i2018-11726-4">Read the paper</a>
+- H. Garg, <em>Particle laden inhomogeneous elastic turbulence</em>, PhD thesis, Université de Lille, 2019. <a href="https://pepite-depot.univ-lille.fr/LIBRE/EDSPI/2019/50376-2019-Garg.pdf">Read the thesis</a>
+
 
 ## Hydrogen technologies and multiphase flow
 
