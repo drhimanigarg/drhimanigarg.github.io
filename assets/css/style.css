@@ -271,3 +271,15 @@ main video {
   display: block;
   margin: 1.4rem auto 0.4rem;
 }
+
+/* ---- side-by-side video pair ---- */
+.video-pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.8rem;
+  margin: 1.4rem 0 0.4rem;
+}
+.video-pair video { margin: 0; width: 100%; }
+@media (max-width: 560px) {
+  .video-pair { grid-template-columns: 1fr; }
+}
