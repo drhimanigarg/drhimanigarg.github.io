@@ -9,6 +9,24 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <script>
+    (function () {
+      var palettes = [
+        { a: "#14507f", b: "#1e6bb0", link: "#1e6bb0", dark: "#14507f" }, /* deep blue */
+        { a: "#14507f", b: "#17a398", link: "#1e6bb0", dark: "#14507f" }, /* blue-teal */
+        { a: "#8c3b12", b: "#c05621", link: "#b34a17", dark: "#8c3b12" }, /* copper */
+        { a: "#1d4a38", b: "#2e7d5b", link: "#2e7d5b", dark: "#1d4a38" }, /* forest green */
+        { a: "#6b1f2e", b: "#97324a", link: "#97324a", dark: "#6b1f2e" }, /* burgundy */
+        { a: "#2b3a45", b: "#52646f", link: "#3e5c76", dark: "#2b3a45" }  /* graphite */
+      ];
+      var p = palettes[Math.floor(Math.random() * palettes.length)];
+      var r = document.documentElement.style;
+      r.setProperty("--accent-a", p.a);
+      r.setProperty("--accent-b", p.b);
+      r.setProperty("--flow-blue", p.link);
+      r.setProperty("--flow-blue-dark", p.dark);
+    })();
+  </script>
 </head>
 <body>
   <header class="site-header">
