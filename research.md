@@ -10,7 +10,7 @@ My research sits at the intersection of turbulence physics and thermal energy en
 
 ## Turbulent heat transfer over rough and additively manufactured surfaces
 
-Additive manufacturing (3D printing) makes it possible to build heat-exchanging components with surface textures no conventional machining can produce — but the resulting roughness changes the turbulence, the drag, and the heat transfer in ways that are still poorly understood. Using LES and DNS, we quantify how roughness height, skewness, and topography shape the near-wall flow and the Nusselt number, including conjugate heat transfer effects and medium-to-high Prandtl number fluids. This work is carried out with industrial partners such as Siemens Energy and academic collaborators at Karlsruhe Institute of Technology and Osaka Metropolitan University.
+Additive manufacturing (3D printing) makes it possible to build heat-exchanging components with surface textures no conventional machining can produce — but the resulting roughness changes the turbulence, the drag, and the heat transfer in ways that are still poorly understood. Using LES and DNS, we quantify how roughness height, skewness, and topography shape the near-wall flow and the Nusselt number, including conjugate heat transfer effects and medium-to-high Prandtl number fluids. This work is carried out with industrial partners such as Siemens Energy and academic collaborators at Karlsruhe Institute of Technology (Germany), Atlantic Technological University (Ireland) and Osaka Metropolitan University (Japan).
 
 ![Overview of turbulent heat transfer over rough surfaces: roughness topography, temperature roughness function, and turbulent flow structure](/assets/img/roughness-overview.jpg)
 *How roughness shapes turbulent heat transfer: surface topography, the temperature roughness function, and the near-wall flow structure.*
@@ -58,7 +58,30 @@ At micro scales, inertia is too weak to generate turbulence — but adding small
 
 ## Hydrogen technologies and multiphase flow
 
-Water management inside proton exchange membrane (PEM) fuel cells and bubble dynamics in alkaline electrolyzers are two-phase flow problems that decide the efficiency and lifetime of hydrogen energy devices. We perform pore-scale simulations of gas diffusion layers, dynamic contact angle modelling for droplet transport, and channel-scale two-phase studies. This theme is supported by the Hains Foundation project *Hydrogen as a Catalyst for Climate-Neutral Fuels*.
+Water management inside proton exchange membrane (PEM) fuel cells and bubble dynamics in alkaline electrolyzers are two-phase flow problems that decide the efficiency and lifetime of hydrogen energy devices. We perform pore-scale simulations of gas diffusion layers, dynamic contact angle modelling for droplet transport, and channel-scale two-phase studies. This theme is supported by the Hains Foundation project *Hydrogen as a Catalyst for Climate-Neutral Fuels*, and much of the PEM fuel cell work below formed the PhD thesis of my student <a href="https://portal.research.lu.se/en/persons/danan-yang/">Danan Yang</a>, who defended in August 2025.
+
+<video autoplay muted loop playsinline controls src="/assets/img/pemfc-water-generation.mp4"></video>
+*Why water management matters: water is continuously generated inside an operating fuel cell — too little dries the membrane, too much floods the pores and blocks the reactant gas.*
+
+![Computational geometry: gas channel and gas diffusion layer assembly, with stochastically reconstructed fibrous GDL microstructures of varying fiber diameter compared with the Freudenberg H2315 material](/assets/img/pemfc-gdl-geometry.jpg)
+*Our computational playground: the gas channel–gas diffusion layer (GC–GDL) assembly, and stochastically reconstructed fibrous GDL microstructures with varying fiber diameter, compared against the real Freudenberg H2315 material.*
+
+<div class="video-pair">
+  <video autoplay muted loop playsinline controls src="/assets/img/pemfc-gdl-sim1.mp4"></video>
+  <video autoplay muted loop playsinline controls src="/assets/img/pemfc-gdl-sim2.mp4"></video>
+</div>
+*Two-phase flow in GC–GDL assemblies: liquid water invading the fibrous gas diffusion layer and emerging into the gas channel, from our pore-scale simulations.*
+
+**Our publications on this topic:**
+
+- D. Yang, H. Garg, M. Andersson, <em>A framework for stochastic reconstruction of gas diffusion layers with enhanced fiber morphology modulation and additive incorporation</em>, Mater. Today Commun. 53, 2026. <a href="https://www.sciencedirect.com/science/article/pii/S2352492826006926">Read the paper</a>
+- D. Yang, M. Andersson, H. Garg, <em>Pore-scale numerical investigation of water-gas flow and heat transport in gas diffusion layers with varying fiber/additive content and hydrophobicity</em>, Int. J. Heat Mass Transf., 2025. <a href="https://www.sciencedirect.com/science/article/pii/S0017931025011949">Read the paper</a>
+- D. Yang, M. Andersson, H. Garg, <em>Effect of fiber curvature on gas diffusion layer two-phase dynamics of a proton exchange membrane fuel cell</em>, Int. J. Hydrogen Energy 85, 2024. <a href="https://www.sciencedirect.com/science/article/pii/S0360319924036966">Read the paper</a>
+- D. Yang, P. Fortin, H. Garg, M. Andersson, <em>The influence of bipolar plate hydrophobicity on performance and durability of a proton exchange membrane fuel cell</em>, Int. J. Hydrogen Energy 95, 2024. <a href="https://www.sciencedirect.com/science/article/pii/S0360319924034700">Read the paper</a>
+- D. Yang, S. Beale, H. Garg, M. Andersson, <em>Two-phase fluid dynamics in proton exchange membrane fuel cells: counter-flow liquid inlets and gas outlets at the electrolyte-cathode interface</em>, J. Electrochem. Soc. 171 (10), 2024. <a href="https://iopscience.iop.org/article/10.1149/1945-7111/ad7d3d">Read the paper</a>
+- D. Yang, H. Garg, M. Andersson, <em>Numerical investigation on two-phase flow pressure drop in cathode channels of proton exchange membrane fuel cells</em>, ECS Trans. 114 (5), 2024. <a href="https://iopscience.iop.org/article/10.1149/11405.0577ecst">Read the paper</a>
+- D. Yang, H. Garg, M. Andersson, <em>Numerical simulation of two-phase flow in gas diffusion layer and gas channel of proton exchange membrane fuel cells</em>, Int. J. Hydrogen Energy 48 (41), 2023. <a href="https://www.sciencedirect.com/science/article/pii/S0360319923000162">Read the paper</a>
+- D. Yang, H. Garg, S. B. Beale, M. Andersson, <em>Numerical reconstruction of proton exchange membrane fuel cell gas diffusion layer</em>, ECS Trans. 112, 2023. <a href="https://iopscience.iop.org/article/10.1149/11204.0049ecst">Read the paper</a>
 
 ## Applied thermal engineering
 
