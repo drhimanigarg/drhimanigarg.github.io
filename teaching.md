@@ -16,6 +16,17 @@ permalink: /teaching/
 
 - **Turbulence and Modeling** lectures at the first AdTherM summer school on Advanced Computing for Sustainable Thermal Management in Industry, Lund, June 2025 — attended by 20 participants from academia and industry.
 
+## Postdoctoral researcher
+
+<div class="person-card">
+  <img class="person-photo" src="{{ '/assets/img/thomas-golliard.jpg' | relative_url }}" alt="Thomas Golliard">
+  <div>
+    <p class="person-name"><a href="https://portal.research.lu.se/en/persons/thomas-golliard/">Thomas Golliard</a></p>
+    <p class="person-thesis"><em>Postdoctoral researcher, Heat Transfer, Department of Energy Sciences</em></p>
+    <p class="person-meta">Thomas is advancing the fundamental understanding of turbulent heat transfer over rough surfaces, by exploring the underlying turbulence structures in depth.</p>
+  </div>
+</div>
+
 ## PhD students
 
 ### Ongoing supervision, Department of Energy Sciences
