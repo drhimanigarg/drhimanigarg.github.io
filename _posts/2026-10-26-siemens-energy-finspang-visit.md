@@ -9,7 +9,7 @@ What can surface roughness tell us about heat transfer? We spent a full day expl
 ![Presenting our latest numerical results on rough-wall heat transfer to the team at Siemens Energy's fluid dynamics lab](/assets/img/siemens-finspang-presenting.jpg)
 *Sharing our latest numerical advances on turbulent heat transfer over rough surfaces in the lab.*
 
-On 26 November, my postdoc [Thomas Golliard](https://www.linkedin.com/in/thomas-golliard-0bb848108/) and I had the pleasure of sharing our latest numerical advances and hearing about the team's experimental work. The conversations sparked new ideas and gave us plenty to build on.
+On 26 October, my postdoc [Thomas Golliard](https://www.linkedin.com/in/thomas-golliard-0bb848108/) and I had the pleasure of sharing our latest numerical advances and hearing about the team's experimental work. The conversations sparked new ideas and gave us plenty to build on.
 
 ![With the Siemens Energy team at the fluid dynamics lab in Finspång](/assets/img/siemens-finspang-team.jpg)
 *With colleagues at the fluid dynamics lab in Finspång.*
