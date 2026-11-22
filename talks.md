@@ -7,7 +7,7 @@ permalink: /talks/
 # Talks & service
 
 ## Invited seminars and presentations
-
+- **LINXS (Lund Institute of Advanced Neutron and X-ray Science), RheoMAXESS workshop "Bridging Rheology and SAXS/SANS"** — *From Constitutive Models to Flow-Induced Structure: What Can Simulations Tell Us About Viscoelastic Flows*, 13 October 2026, Lund, Sweden. <a href="{{ '/news/2026/linxs-rheology-saxs-sans-workshop/' | relative_url }}">Read more</a>.
 - **Solid State Physics, Lund University** — *Transport of Inertial Particles in Non-Homogeneous Elastic Turbulence*, 26 September 2025, Sweden.
 - **Hydrogen Fuel Cells Workshop II**, organized by Coventry University (UK) and Cochin University of Science and Technology (India) as part of the British Council's Going Global Partnership — *Direct Numerical Investigation of Two-Phase Flow Behaviour in Polymer Electrolyte Membrane Fuel Cells*, 18–20 August 2025, online.
 - **The Swedish Society for Industrial Fluid Mechanics and Heat Transfer (SweSIFH)** — *Additive Manufacturing: Towards Sustainable Product Development, Reduced Environmental Impact, and Advanced Heat Transfer Capabilities*, 9–10 June 2025, Sweden.
