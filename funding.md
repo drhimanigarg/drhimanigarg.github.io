@@ -127,4 +127,4 @@ Merit-based travel grants and fee waivers that allowed me to present my work at 
 - **2017** — Travel grant of 2,000 EUR and conference fee waiver, Italian Inst. Theo. Phys., Italy
 - **2017** — Travel grant of 1,200 EUR and conference fee waiver, EU COST action, Portugal
 
-*Interested in collaborating, co-funding a project, or joining one of these projects? Get in touch at <a href="mailto:himani.garg@energy.lth.se">himani.garg@energy.lth.se</a>.*
+*Interested in collaborating or joining one of these projects? Get in touch at <a href="mailto:himani.garg@energy.lth.se">himani.garg@energy.lth.se</a>.*
