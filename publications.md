@@ -8,11 +8,14 @@ permalink: /publications/
 
 Selected peer-reviewed journal articles. The full and always up-to-date list is on my <a href="https://orcid.org/0000-0002-5223-0567">ORCID profile</a> and <a href="https://scholar.google.com/citations?user=J3hkS44AAAAJ">Google Scholar</a>.
 
-## 2026
+### 2026
 
 <ul class="pub-list">
-  <li>H. Garg, <em>Numerical Investigation of Turbulent Heat Transfer Over Rough Surfaces at Medium–high Prandtl Numbers</em>. <span class="venue">Journal of Turbomachinery (ASME), accepted.</span></li>
-  <li>H. Garg, R. Seppey, M. Mihaescu, C. Fureby, <em>Turbulent Heat Transfer in Lattice-Structured Matrix Cooling Channels</em>. <span class="venue">Journal of Turbomachinery (ASME), accepted.</span></li>
+  <li>H. Garg, M. Kadivar, <em>Influence of Roughness Steepness on Momentum and Heat Transfer in Turbulent Pipe Flow Across Low-to-Moderate Prandtl Numbers</em>. <span class="venue">International Journal of Heat and Fluid Flow, under review.</span></li>
+  <li>Y. Kuwata, H. Garg, <em>DNS study on the effect of thermal boundary conditions in turbulent rough-wall channel flows</em>. <span class="venue">Journal of Fluid Mechanics, accepted.</span></li>
+  <li>H. Garg, <em>Numerical Investigation of Turbulent Heat Transfer Over Rough Surfaces at Medium–high Prandtl Numbers</em>. <span class="venue">Journal of Turbomachinery 148 (10), 101005.</span> <a class="doi" href="https://doi.org/10.1115/1.4072500">doi:10.1115/1.4072500</a></li>
+  <li>H. Garg, R. Seppey, M. Mihaescu, C. Fureby, <em>Turbulent Heat Transfer in Lattice-Structured Matrix Cooling Channels</em>. <span class="venue">Journal of Turbomachinery (ASME), accepted.</span> <a class="doi" href="https://doi.org/10.1115/1.4072655">doi:10.1115/1.4072655</a></li>
+  <li>C. Antetomaso, S. S. Merola, M. Andersson, H. Garg, <em>Implementation of a force-balance-based dynamic contact angle model for multiple droplets in OpenFOAM</em>. <span class="venue">Computers &amp; Fluids, submitted.</span></li>
   <li>D. Yang, H. Garg, M. Andersson, <em>A framework for stochastic reconstruction of gas diffusion layers with enhanced fiber morphology modulation and additive incorporation</em>. <span class="venue">Materials Today Communications 53 (115303).</span> <a class="doi" href="https://doi.org/10.1016/j.mtcomm.2026.115303">doi:10.1016/j.mtcomm.2026.115303</a></li>
   <li>E. Naversten, F. Maletzke, N. Rignell, H. Garg, <em>Steady-state RANS investigation of turbulent heat transfer in matrix cooling channels for gas turbine blades</em>. <span class="venue">Case Studies in Thermal Engineering 82 (108102).</span> <a class="doi" href="https://doi.org/10.1016/j.csite.2026.108102">doi:10.1016/j.csite.2026.108102</a></li>
   <li>N. Adhikari, B. Baral, M. Andersson, H. Garg, <em>Numerical modelling of solar dryers focusing on the heat exchangers and solar collectors — comparing flat and rib designs with varying flow</em>. <span class="venue">Case Studies in Thermal Engineering 80 (107874).</span> <a class="doi" href="https://doi.org/10.1016/j.csite.2026.107874">doi:10.1016/j.csite.2026.107874</a></li>
