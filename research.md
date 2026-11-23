@@ -123,9 +123,4 @@ Beyond fundamental studies, we apply CFD to practical energy systems: solar drye
 
 ## Funding
 
-Current and recent research grants:
-
-- **Hains Foundation** — *Hydrogen as a Catalyst for Climate-Neutral Fuels: Advancing Efficiency in the Energy Transition* (PI, 1.75 MSEK, 2025)
-- **Crafoord Foundation** — *Advanced cooling strategies and flow-induced heat transfer enhancement for industrial processes* (PI, 1 MSEK, 2025)
-- **Kempestiftelserna** — *Advanced Cooling Strategies and Flow-Induced Heat Transfer Enhancement for Industrial Processes* (Co-PI, two-year postdoc scholarship, 2025)
-- **Vinnova** — *Advanced Computing for Sustainable Thermal Management in Industry (AdTherM)* competence centre (co-applicant, 109 MSEK consortium, 2023)
+This research is supported by the Swedish Energy Agency, Vinnova, the Hains foundations, the Crafoord Foundation, Kempestiftelserna and the Royal Physiographic Society of Lund. See the <a href="{{ '/funding/' | relative_url }}">Funding page</a> for the full list of projects.
