@@ -11,7 +11,7 @@ Selected peer-reviewed journal articles. The full and always up-to-date list is 
 ### 2026
 
 <ul class="pub-list">
-  <li>H. Garg, M. Kadivar, <em>Influence of Roughness Steepness on Momentum and Heat Transfer in Turbulent Pipe Flow Across Low-to-Moderate Prandtl Numbers</em>. <span class="venue">International Journal of Heat and Fluid Flow, under review.</span></li>
+  <li>H. Garg, M. Kadivar, <em>Influence of Roughness Steepness on Momentum and Heat Transfer in Turbulent Pipe Flow Across Low-to-Moderate Prandtl Numbers</em>. <span class="venue">International Journal of Heat and Fluid Flow, accepted.</span></li>
   <li>Y. Kuwata, H. Garg, <em>DNS study on the effect of thermal boundary conditions in turbulent rough-wall channel flows</em>. <span class="venue">Journal of Fluid Mechanics, accepted.</span></li>
   <li>H. Garg, <em>Numerical Investigation of Turbulent Heat Transfer Over Rough Surfaces at Medium–high Prandtl Numbers</em>. <span class="venue">Journal of Turbomachinery 148 (10), 101005.</span> <a class="doi" href="https://doi.org/10.1115/1.4072500">doi:10.1115/1.4072500</a></li>
   <li>H. Garg, R. Seppey, M. Mihaescu, C. Fureby, <em>Turbulent Heat Transfer in Lattice-Structured Matrix Cooling Channels</em>. <span class="venue">Journal of Turbomachinery (ASME), accepted.</span> <a class="doi" href="https://doi.org/10.1115/1.4072655">doi:10.1115/1.4072655</a></li>
